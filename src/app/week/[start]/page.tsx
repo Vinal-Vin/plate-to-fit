@@ -57,7 +57,7 @@ export default async function WeekPage({
 
   return (
     <div className="flex min-h-dvh flex-col">
-      <main className="mx-auto w-full max-w-lg flex-1 px-4 pb-24 pt-6">
+      <main className="mx-auto w-full max-w-lg flex-1 px-4 pb-24 pt-[calc(env(safe-area-inset-top)_+_1.5rem)]">
         <div className="mb-4 flex items-center justify-between">
           <Link
             href={`/week/${prevWeek}`}
